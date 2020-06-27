@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <center>
+
+        <div>
+            <h1 style="color: rgb(214, 214, 89); background-color: #314275; width: 250px;"><b> CALCULATOR</b></h1>
+        </div>
+
+
+
+        <div style="background-color: #324fa3;width: 250px; margin-top: -20px;">
+
+            <div class="main">
+
+                <div>
+                    <input id="result" class="result" type="text">
+                </div>
+
+                <div>
+                    <button class="clearBtn" onclick="clearResult()">C</button>
+                </div>
+
+                <div>
+                    <button class="btn1" onclick="getSquare() ">x<sup>2</sup></button>
+                    <button class="btn1" onclick="getCube();">x<sup>3</sup></button>
+                    <button class="btn1" onclick="getSqrt(); ">√</button>
+                    <button class="btn1" onclick="getNumber('('); ">(</button>
+                    <button class="btn1" onclick="getNumber(')'); ">)</button>
+                </div>
+
+                <div>
+                    <button class="btn" onclick="getNumber('7')">7</button>
+                    <button class="btn" onclick="getNumber('8')">8</button>
+                    <button class="btn" onclick="getNumber('9')">9</button>
+                    <button class="btn" onclick="getNumber('*')">X</button>
+                </div>
+
+                <div>
+                    <button class="btn" onclick="getNumber('4')">4</button>
+                    <button class="btn" onclick="getNumber('5')">5</button>
+                    <button class="btn" onclick="getNumber('6')">6</button>
+                    <button class="btn" onclick="getNumber('-')">-</button>
+                </div>
+
+                <div>
+                    <button class="btn" onclick="getNumber('1')">1</button>
+                    <button class="btn" onclick="getNumber('2')">2</button>
+                    <button class="btn" onclick="getNumber('3')">3</button>
+                    <button class="btn" onclick="getNumber('+')">+</button>
+                </div>
+
+                <div>
+                    <button class="halfBtn">0</button>
+                    <button class="halfBtn" onclick="getResult()">=</button>
+                    <button class="btn" onclick="getNumber('/'); ">/</button>
+                </div>
+
+            </div>
+
+        </div>
+    </center>
+</body>
+
+<script src="app.js"></script>
+
+
+</html>
